@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial;
+    font-size: 12px;
+    background-color: #878787;
+    margin: 0 auto;
+
+}
+#header {
+    width: 620px;
+    height: 240px;
+    top: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+#center{
+    width:620px;
+    height: 150px;
+    background-color: #666;
+}
+#header #center #clock #hours {
+    float: left;
+    width: 80px;
+    height:60px;
+    top: 45px;
+    left: 30px;
+
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+}
+#header #center #clock #minutes {
+    width: 80px;
+    height: 60px;
+    top: 45px;
+    left: 210px;
+
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+}
+#header #center #clock #seconds {
+    width: 80px;
+    height: 60px;
+    top: 45px;
+    left: 390px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 32px;
+    position: absolute;
+
+}
+#header #center #clock div.and1 {
+    width: 40px;
+    height: 60px;
+    top: 45px;
+    left: 140px;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+
+    position: absolute;
+}
+#header #center #clock div.and2 {
+    width: 40px;
+    height: 60px;
+    top: 45px;
+    left:320px;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+
+    position: absolute;
+
+}
+#header #date {
+    width: 620px;
+    height: 80px;
+    margin:  0 auto;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', 'Arial Narrow', serif;
+    background-color: #666;
+}
+#header #date #week {
+    width: 60px;
+    height: 45px;
+    top: 20px;
+    left: 55px;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+}
+#header #date #weather {
+    width: 45px;
+    height: 45px;
+    margin-top: -25px;
+    margin-left: 155px;
+    text-align: center;
+    line-height: 45px;
+}
+#header #date #month {
+    width: 45px;
+    height: 45px;
+    margin-top: -45px;
+    margin-left: 255px;
+    text-align: center;
+    line-height: 45px;
+}
+#header #date #day {
+    width: 45px;
+    height: 45px;
+    margin-top: -45px;
+    margin-left: 355px;
+    text-align: center;
+    line-height: 45px;
+
+}
+#header #date #year {
+    width: 90px;
+    height: 45px;
+    margin-top: -45px;
+    margin-left: 455px;
+    text-align: center;
+    line-height: 45px;
+}
+
+
+
+
