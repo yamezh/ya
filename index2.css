@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "HelveticaNeue","Helvetica-Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+
+}
+#header {
+    width: 980px;
+    margin: 50px auto auto auto;
+}
+#header #center {
+    display: none;
+    width: 980px;
+    height: 340px;
+}
+#header #center #time {
+    width: 980px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-family: Arial;
+    text-align: center;
+}
+#header #center #time #hours {
+
+    width: 80px;
+    height: 80px;
+    top: 14px;
+    left: 120px;
+    position: relative;
+    text-align: center;
+    line-height: 80px;
+}
+#header #center #time .and1 {
+
+    width: 80px;
+    height: 80px;
+    margin-top: -66px;
+    margin-left: 240px;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+#header #center #time #minutes {
+
+    width: 80px;
+    height:80px;
+    margin-top: -80px;
+    margin-left: 360px;
+    text-align: center;
+    line-height: 80px;
+
+}
+#header #center #time .and2 {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 480px;
+    text-align: center;
+    line-height: 80px;
+}
+#header #center #time #seconds {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 600px;
+    text-align: center;
+    line-height: 80px;
+}
+#header #center #date {
+    width: 980px;
+    height: 100px;
+    font-size: 55px;
+    text-align: center;
+    margin: 0 auto;
+}
+#header #center #date #week {
+    width: 120px;
+    height: 80px;
+    top: 15px;
+    left: 100px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #date #day {
+    width: 80px;
+    height: 80px;
+    top: -65px;
+    left: 320px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #date #month {
+    width: 80px;
+    height: 80px;
+    top: -145px;
+    left: 500px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #date #year {
+    width: 160px;
+    height: 80px;
+    top: -225px;
+    left: 680px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #weather {
+    width: 980px;
+    height: 100px;
+    font-size: 55px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+#header #center #weather #city {
+    width: 120px;
+    height: 80px;
+    top: 15px;
+    left: 60px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #weather #img {
+    width: 120px;
+    height: 80px;
+    top: -65px;
+    left: 240px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #weather #weath {
+    width: 120px;
+    height: 80px;
+    top: -145px;
+    left: 420px;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #weather #temperature {
+    width: 120px;
+    height: 80px;
+    top: -225px;
+    left: 600px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #center #weather #wind {
+    width: 160px;
+    height: 80px;
+    top: -305px;
+    left: 780px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 80px;
+    position: relative;
+
+}
+#header #open {
+    width: 100px;
+    height: 80px;
+    font-size: 38px;
+    display: block;
+    color: #000000;
+    margin: 0 auto;
+    top: 200px;
+    position: relative;
+    filter:Alpha(opacity=50);
+    clear: both;
+    z-index: 1001;
+}
+#header #close {
+    float: right;
+    width:30px;
+    height: 20px;
+    margin-top: -300px;
+    background-color: #d9d9d9;
+}
+#sidebar {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+}
