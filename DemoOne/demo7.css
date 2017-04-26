@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    margin: 0 auto;
+    background-color: #dddddd;
+}
+#rightAd {
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+}
+#rightAd #pic a#closeBtn {
+    background: url(images/icon.jpg) no-repeat -399px -19px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+#rightAd #pic a#closeBtn:hover {
+    background-position: -343px -19px;
+}
+.hide {
+    display: none;
+}
+#play {
+    width: 30px;
+    height: 50px;
+    top: 200px;
+    right: 0px;
+    position: fixed;
+    background-color: #fff;
+}
